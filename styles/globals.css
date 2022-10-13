@@ -1,14 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --app-bg-color: #E6F6FF;
+  --app-header-color: #001B2F;
+  --app-text-color: #8596a5;
+  --app-chat-bg-color: #F5FBFF;
+  --app-chat-user-bg-color: #8596a5;
+  --app-typeeffect-color-1: #ffc233;
+  --app-typeeffect-color-2: #1bce40;
+  --app-typeeffect-color-3: #6735ee;
+  --app-button-color: #1799DD;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Roboto', sans-serif !important;
+  background: linear-gradient(to bottom, var(--app-bg-color), white);
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif !important;
+  color: var(--app-header-color);
+}
+
+h4 .hightlight-text {
+  font-family: 'Roboto', sans-serif !important;
+  color: var(--app-text-color);
+}
+
+h6, label {
+  font-family: 'Roboto', sans-serif !important;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+button, .app-button {
+  font-family: 'Roboto', sans-serif !important;
+  background-color: var(--app-button-color) !important;
+  box-shadow: none !important;
+  text-transform: none;
+  border-radius: 10px;
+}
+
+input {
+  font-family: 'Roboto', sans-serif !important;
 }
 
 * {

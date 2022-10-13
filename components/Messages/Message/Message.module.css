@@ -1,0 +1,60 @@
+.message-box {
+    background: var(--app-chat-bg-color);
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: white;
+    display: inline-block;
+    max-width: 80%;
+}
+  
+.message-text {
+    font-family: 'Roboto', sans-serif !important;
+    width: 100%;
+    letter-spacing: 0;
+    float: left;
+    font-size: 1.1em;
+    word-wrap: break-word;
+}
+
+.message-text img {
+    vertical-align: middle;
+}
+
+.message-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.sent-text {
+    font-family: 'Roboto', sans-serif !important;
+    display: flex;
+    align-items: center;
+    color: var(--app-text-color);
+    letter-spacing: 0.3px;
+}
+
+.box-start {
+    justify-content: flex-start;
+}
+
+.box-end {
+    justify-content: flex-end;
+}
+
+.color-own {
+    color: white;
+}
+
+.color-user {
+    color: var(--app-header-color);
+}
+
+.background-own {
+    background: var(--app-chat-user-bg-color);
+}
+
+.background-user {
+    background: var(--app-chat-bg-color);
+}

@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    border-top: 2px solid var(--app-button-color);
+}
+  
+.input {
+    border: none;
+    border-radius: 0;
+    width: 100%;
+    font-size: 1em;
+    color: var(--app-header-color);
+}
+
+.input:focus, .input textarea:focus {
+    outline: none;
+}
+
+.app-button .icon {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}

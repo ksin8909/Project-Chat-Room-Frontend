@@ -1,0 +1,14 @@
+.typeeffect-1 {
+    font-family: 'Roboto', sans-serif !important;
+    color: var(--app-typeeffect-color-1);
+}
+
+.typeeffect-2 {
+    font-family: 'Roboto', sans-serif !important;
+    color: var(--app-typeeffect-color-2);
+}
+
+.typeeffect-3 {
+    font-family: 'Roboto', sans-serif !important;
+    color: var(--app-typeeffect-color-3);
+}

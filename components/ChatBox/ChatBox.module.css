@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid var(--app-button-color);
+}

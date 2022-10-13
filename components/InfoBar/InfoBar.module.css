@@ -1,0 +1,11 @@
+.infobar {
+    font-family: 'Roboto', sans-serif !important;
+    background-color: var(--app-button-color) !important;
+    color: white;
+    border-radius: 10px;
+}
+
+.icon {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
