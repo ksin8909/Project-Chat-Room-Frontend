@@ -15,7 +15,7 @@ import io from "socket.io-client"
 import { PROJECT_NAME } from '../../lib/constants'
 import ChatBox from '../../components/ChatBox/ChatBox'
 
-const ENDPOINT = 'https://zealous-jay-coat.cyclic.app/';
+const ENDPOINT = 'https://project-chat-room-backend.onrender.com/';
 let socket;
 
 export default function Room() {
